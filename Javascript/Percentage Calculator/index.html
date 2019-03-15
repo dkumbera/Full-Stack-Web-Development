@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="main.css"></head>
+    <body>
+        <div>
+        <h1>Percentage Calculator</h1>
+        <div class="container">
+        <form id="percentageForm">
+            <select id = "selection" onchange="choice()">
+                <option value="--">Please select an option</option>
+                <option value="1">What is Y% of X?</option>
+                <option value="2">X is Y% of what?</option>
+                <option value="3">What % of X is Y?</option>
+                <option value="4">X% of what is Y?</option>
+                <option value="5">Y% of X is what?</option>
+            </select><br>
+            <input type="text" id="numField1"> 
+            <label class="labelcolor" id="phrase"> --- </label>
+            <input type="text" id="numField2"><br>
+            <h6 class="note">*Use decimals for percentages</h6>
+            
+        
+            <div class="result">
+                <label class="resultLabel">Answer:</label>
+               <input id ="resultField" type=text readonly> 
+            </div><br>
+            
+            <input class="stylings" type="submit" value="Calculate">
+            <input class="stylings2" id="clear" type="button" onclick="clearFunction()" value="Clear">
+            
+        <script type="text/javascript" src="calc.js"></script>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div select{
+    display: block;
+     margin-left: auto; margin-right: auto;
+}
+
+div.container{
+    background-color: black;
+    border-radius: 12px;
+}
+
+label.labelcolor{
+    color: white;
+}
+
+h6{
+    color: yellow;
+}
+
+input.stylings{
+    border-radius: 12px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+}
+
+input.stylings2{
+    border-radius: 12px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+}
+
+div.result, .resultLabel{
+    color: white;
+}
+
+
+
+
+
+
+

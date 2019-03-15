@@ -1,0 +1,23 @@
+body{
+    background-color: #b3d1ff;
+}
+
+h1{
+   text-align: center;
+    color: red;
+    text-shadow: 1px 1px 3px black
+}
+
+p{
+    color: yellow;
+}
+
+.color{
+    color: blue;
+}
+
+#styling{
+    color: darkgreen;
+    background-color: yellow;
+    border: 2px solid black;
+}
