@@ -1,0 +1,23 @@
+ul ol li{
+    color: green;
+}
+
+ul > li{
+    color: red;
+}
+
+.parent, h2{
+    color:blue;
+}
+
+div.parent > h2{
+    color:yellow
+}
+
+h1, h3, h4, p{
+    color:fuchsia
+}
+
+div h3{
+    color: brown;
+}
