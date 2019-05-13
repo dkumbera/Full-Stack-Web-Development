@@ -1,8 +1,11 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 
 <html>
 <header>
-    <h1>Survey Form</h1>
+    <h1 id="title">Survey Form</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
 </header>
@@ -11,17 +14,16 @@
     <form id="survey-form">
 
 
-        <p id="description">Let us know how we can improve our game</p>
+        <p id="description"><strong>Let us know about your interests and how we can improve our video games</strong></p>
 
         <div class="outer">
             <div class="input-labels">
                 <label id="name-label">Name:</label>
             </div>
             <div class="container">
-                <input type="text" id="name" name="name" placeholder="Please enter your name">
+                <input type="text" required id="name" name="name" placeholder="Please enter your name">
             </div>
         </div>
-
 
 
         <div class="outer">
@@ -29,7 +31,7 @@
                 <label id="email-label">Email:</label>
             </div>
             <div class="container">
-                <input type="email" id="email" name="email" placeholder="Please enter your email">
+                <input type="email" required id="email" name="email" placeholder="Please enter your email">
             </div>
         </div>
 
@@ -64,9 +66,6 @@
         </div>
 
 
-
-
-
         <div class="outer">
 
             <div class="input-labels">
@@ -74,25 +73,20 @@
             </div>
 
             <div class="radio-input">
-                <input type="radio" name="recommend-radio" id="radio1">
+                <input type="radio" name="answerChoice" value=1 id="radio1">
                 <label for="radio1">Yes</label><br>
-                <input type="radio" name="recommend-radio" id="radio2">
+                <input type="radio" name="answerChoice" value=2 id="radio2">
                 <label for="radio2">No</label><br>
-                <input type="radio" name="recommend-radio" id="radio3">
+                <input type="radio" name="answerChoice" value=3 id="radio3">
                 <label for="radio3">Maybe</label>
             </div>
 
-
         </div>
-
-
-
-
 
         <div class="outer">
 
-            <div class="input-labels">
-                <label class="genre-label">What is your favorite genre?</label>
+            <div class="genre-label">
+                <label>What is your favorite genre?</label>
             </div>
             <div class="container">
                 <div class="checkbox-input">
@@ -108,22 +102,20 @@
                     <input type="checkbox" value="4">FPS
                 </div>
                 <div class="checkbox-input">
-                    <input type="checkbox" value="4">RPG
+                    <input type="checkbox" value="5">RPG
                 </div>
                 <div class="checkbox-input">
-                    <input type="checkbox" value="5">Racing
+                    <input type="checkbox" value="6">Racing
                 </div>
                 <div class="checkbox-input">
-                    <input type="checkbox" value="6">RTS
+                    <input type="checkbox" value="7">RTS
                 </div>
                 <div class="checkbox-input">
-                    <input type="checkbox" value="7">MMO
+                    <input type="checkbox" value="8">MMO
                 </div>
             </div>
 
         </div>
-
-
 
 
         <div class="outer">
@@ -133,7 +125,7 @@
 
 
             <div class="container">
-                <textarea id="information" placeholder="Enter your details here.."></textarea>
+                <textarea id="information" placeholder="Enter your comments here.."></textarea>
             </div>
         </div>
 
@@ -148,3 +140,4 @@
 
 
 </html>
+
