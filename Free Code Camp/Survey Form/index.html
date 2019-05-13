@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<header>
+    <h1>Survey Form</h1>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+</header>
+
+<body>
+    <form id="survey-form">
+
+
+        <p id="description">Let us know how we can improve our game</p>
+
+        <div class="outer">
+            <div class="input-labels">
+                <label id="name-label">Name:</label>
+            </div>
+            <div class="container">
+                <input type="text" id="name" name="name" placeholder="Please enter your name">
+            </div>
+        </div>
+
+
+
+        <div class="outer">
+            <div class="input-labels">
+                <label id="email-label">Email:</label>
+            </div>
+            <div class="container">
+                <input type="email" id="email" name="email" placeholder="Please enter your email">
+            </div>
+        </div>
+
+
+
+        <div class="outer">
+            <div class="input-labels">
+                <label id="number-label">Age:</label>
+            </div>
+            <div class="container">
+                <input type="number" id="number" name="age" placeholder="Age" min="1" max="130">
+            </div>
+        </div>
+
+
+
+        <div class="outer">
+            <div class="input-labels">
+
+                <label>What is your current role?</label>
+
+            </div>
+            <div class="container">
+                <select id="dropdown">
+                    <option>Full Time</option>
+                    <option>Part Time</option>
+                    <option>Contractor</option>
+                    <option>Student</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="outer">
+
+            <div class="input-labels">
+                <label>Would you recommend this game to someone?</label>
+            </div>
+
+            <div class="radio-input">
+                <input type="radio" name="recommend-radio" id="radio1">
+                <label for="radio1">Yes</label><br>
+                <input type="radio" name="recommend-radio" id="radio2">
+                <label for="radio2">No</label><br>
+                <input type="radio" name="recommend-radio" id="radio3">
+                <label for="radio3">Maybe</label>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="outer">
+
+            <div class="input-labels">
+                <label class="genre-label">What is your favorite genre?</label>
+            </div>
+            <div class="container">
+                <div class="checkbox-input">
+                    <input type="checkbox" value="1">Adventure
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="2">Action Adventure
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="3">Platform
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="4">FPS
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="4">RPG
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="5">Racing
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="6">RTS
+                </div>
+                <div class="checkbox-input">
+                    <input type="checkbox" value="7">MMO
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="outer">
+            <div class="input-labels">
+                <label>Tell us more about yourself or ask us any questions.</label>
+            </div>
+
+
+            <div class="container">
+                <textarea id="information" placeholder="Enter your details here.."></textarea>
+            </div>
+        </div>
+
+        <div class="submitButton">
+        <button type="submit" id="submit">Submit</button>
+        
+        </div>
+        
+    </form>
+</body>
+
+
+
+</html>

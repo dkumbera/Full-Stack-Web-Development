@@ -1,0 +1,97 @@
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+body{
+     background-color: #346ac1;
+}
+
+#description{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#survey-form {
+    background-color: #e3e5e8;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.input-labels {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    width: 41%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+
+.container{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 200px;
+    padding: 5px;
+}
+
+#dropdown {
+    width: 130px;
+    padding: 8px
+}
+
+.radio-input {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+
+#radio1, #radio2, #radio3{
+    margin-top: 10px;
+}
+
+
+.checkbox-input{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px;
+}
+
+.outer{
+    width: 100%;
+}
+
+textarea{
+    padding: 10px;
+    
+}
+
+.submitButton{
+    text-align: center;
+}
+
+#submit{
+    border-radius: 5px;
+    border: 0px solid;
+    background-color: #2959a5;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 90px;
+    margin: 7px;
+}
