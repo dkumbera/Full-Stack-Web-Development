@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.profileImage-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.profileImage{
+    border-radius: 50%;
+    max-width: 250px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.row h1{
+    display: flex;
+    justify-content: center;
+}
+
+div.row p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sectionDark{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionDark{
+    background-color: #F1F3Fa;
+    padding: 4rem 1rem;
+}
