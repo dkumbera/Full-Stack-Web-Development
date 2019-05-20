@@ -75,6 +75,13 @@ div.row p{
     transform: scale(1.05);
 }
 
+.fa-linkedin{
+    color: #007bb6;
+}
+.fa-github-square { 
+    color: #000; 
+}
+
 .sectionDark{
     display: flex;
     justify-content: center;
