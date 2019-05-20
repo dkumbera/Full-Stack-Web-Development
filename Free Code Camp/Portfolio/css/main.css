@@ -1,4 +1,5 @@
-header{
+header, div.profileImage-wrapper.h1{
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -10,11 +11,23 @@ header{
     padding: 6rem 0;
 }
 
-.profileImage{
+.profileImage {
     border-radius: 50%;
     max-width: 250px;
     width: 100%;
     margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.border {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #1783e8;
+    background-image: linear-gradient(to left, #030ac4 , #3592fc);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 35px;
 }
 
 .row h1{
@@ -26,15 +39,52 @@ div.row p{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 35px;
     width: 50%;
+}
+
+.portfolio-object{
+    text-align: center;
+    max-width: 250px;
+    margin: 1rem 0;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-box{
+    width: 250px;
+    height: 250px;
+    background-color: #d4d6db;
+    transition: .2s ease-in-out;
+}
+
+.project-text{
+    padding: 10px;
+}
+
+.portfolio-object:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .sectionDark{
     display: flex;
     justify-content: center;
+    background-color: #d4d6db;
+    width: 100%;
 }
 
-.sectionDark{
+.sectionLight{
+    display: flex;
+    justify-content: center;
     background-color: #F1F3Fa;
-    padding: 4rem 1rem;
+    width: 100%;
 }
