@@ -1,2 +1,2 @@
 Full Stack Web Development
-Personal projects and practice.
+personal projects and practice.
