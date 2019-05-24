@@ -1,10 +1,15 @@
-header, div.profileImage-wrapper.h1{
+/*.portfolio {
+    margin-top: 500px;
+}*/
+
+header,
+div.profileImage-wrapper.h1 {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-.profileImage-wrapper{
+.profileImage-wrapper {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -15,7 +20,7 @@ header, div.profileImage-wrapper.h1{
     border-radius: 50%;
     max-width: 250px;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 75px;
     margin-bottom: 15px;
 }
 
@@ -24,18 +29,18 @@ header, div.profileImage-wrapper.h1{
     display: flex;
     justify-content: center;
     background-color: #1783e8;
-    background-image: linear-gradient(to left, #030ac4 , #3592fc);
+    background: linear-gradient(to left, #0066ff 20%, #0099ff 94%);
     color: white;
     padding: 2rem 0;
     margin-bottom: 35px;
 }
 
-.row h1{
+.row h1 {
     display: flex;
     justify-content: center;
 }
 
-div.row p{
+div.row p {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -43,12 +48,12 @@ div.row p{
     width: 50%;
 }
 
-.portfolio-object{
+.portfolio-object {
     text-align: center;
     max-width: 250px;
     margin: 1rem 0;
-    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -59,37 +64,114 @@ div.row p{
     justify-content: space-around;
 }
 
-.portfolio-box{
+.portfolio-box {
     width: 250px;
     height: 250px;
     background-color: #d4d6db;
     transition: .2s ease-in-out;
 }
 
-.project-text{
+.project-text {
     padding: 10px;
 }
 
-.portfolio-object:hover{
+.portfolio-object:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.fa-linkedin{
+.fa-linkedin {
     color: #007bb6;
 }
-.fa-github-square { 
-    color: #000; 
+
+.fa-github-square {
+    color: #000;
 }
 
-.sectionDark{
+/*.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons, i.fab fa-linkedin fa-10x a{
+    display: block;
+    text-align: center;
+}
+.socialIcons a {
+    color: black;
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+}*/
+
+.socialIcons {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+.phoneColumn {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.emailColumn {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    color: black;
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*.contactColumn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}*/
+
+
+div.phoneColumn h2 {
+    font-size: 15px;
+}
+
+div.emailColumn h2 {
+    font-size: 15px;
+}
+
+.phoneContainer {
+    position: relative;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.emailContainer {
+    position: relative;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.sectionDark {
     display: flex;
     justify-content: center;
     background-color: #d4d6db;
     width: 100%;
 }
 
-.sectionLight{
+.sectionLight {
     display: flex;
     justify-content: center;
     background-color: #F1F3Fa;
