@@ -1,2 +1,2 @@
-# webdev
-Practice and testing.
+Full Stack Web Development
+personal projects and practice.
