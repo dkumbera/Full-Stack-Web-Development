@@ -1,7 +1,11 @@
-/*.portfolio {
-    margin-top: 500px;
-}*/
+html {
+    scroll-behavior: smooth;
+}
 
+body {
+  height: 2900px;
+  background: linear-gradient(141deg, #d4d6db 0%, #d4d6db 51%, #F1F3Fa 75%);
+}
 header,
 div.profileImage-wrapper.h1 {
     font-family: 'Open Sans', sans-serif;
@@ -14,6 +18,7 @@ div.profileImage-wrapper.h1 {
     flex-direction: column;
     text-align: center;
     padding: 6rem 0;
+    margin-top: 90px;
 }
 
 .profileImage {
@@ -42,6 +47,10 @@ div.profileImage-wrapper.h1 {
 
 div.row p {
     display: flex;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 90px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
@@ -57,7 +66,9 @@ div.row p {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
+.container{
+    height: 75vh;
+}
 .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +146,17 @@ div.row p {
     display: block;
     font-size: 2rem;
     font-weight: 500;
+    padding-bottom: 50px;
 }
+
+.column{
+    margin-top: 50px;
+}
+
+/*#Connect {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}*/
 
 /*.contactColumn{
     margin-top: 1rem;
@@ -162,18 +183,30 @@ div.emailColumn h2 {
     position: relative;
     margin-left: 150px;
     padding: 10px;
+    left: 25px;
 }
 
 .sectionDark {
     display: flex;
     justify-content: center;
-    background-color: #d4d6db;
+    /*background-color: #d4d6db;*/
+    height: 100vh;
     width: 100%;
 }
 
 .sectionLight {
     display: flex;
     justify-content: center;
-    background-color: #F1F3Fa;
+    /*background-color: #F1F3Fa;*/
+    height: 75vh;
     width: 100%;
+}
+
+@media (max-width: 768px){
+    .sectionDark {
+        margin-bottom: 10px;
+    }
+    div.row p{
+        
+    }
 }
