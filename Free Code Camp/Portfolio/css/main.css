@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-  height: 2900px;
-  background: linear-gradient(141deg, #d4d6db 0%, #d4d6db 51%, #F1F3Fa 75%);
-}
 header,
 div.profileImage-wrapper.h1 {
     font-family: 'Open Sans', sans-serif;
@@ -40,21 +36,29 @@ div.profileImage-wrapper.h1 {
     margin-bottom: 35px;
 }
 
+.skills {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2rem 0 0 1rem;
+    padding-bottom: 50px;
+}
+
 .row h1 {
     display: flex;
     justify-content: center;
 }
 
-div.row p {
+
+.aboutMe {
     display: flex;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 90px;
+    justify-content: center;
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
-    width: 50%;
 }
 
 .portfolio-object {
@@ -66,9 +70,6 @@ div.row p {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.container{
-    height: 75vh;
-}
 .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -80,10 +81,6 @@ div.row p {
     height: 250px;
     background-color: #d4d6db;
     transition: .2s ease-in-out;
-}
-
-.project-text {
-    padding: 10px;
 }
 
 .portfolio-object:hover {
@@ -99,29 +96,35 @@ div.row p {
     color: #000;
 }
 
-/*.socialIcons{
-    display: flex;
-    justify-content: center;
-}
-.socialIcons, i.fab fa-linkedin fa-10x a{
-    display: block;
-    text-align: center;
-}
-.socialIcons a {
-    color: black;
-    display: block;
-    font-size: 2rem;
-    font-weight: 500;
-}*/
-
 .socialIcons {
     display: flex;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .column {
     flex: 33.33%;
     padding: 5px;
     text-align: center;
+}
+
+.socialIcons a {
+    color: black;
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+div.phoneColumn h2 {
+    font-size: 15px;
+}
+
+div.emailColumn h2 {
+    font-size: 15px;
 }
 
 .phoneColumn {
@@ -136,54 +139,17 @@ div.row p {
     text-align: center;
 }
 
-.contactContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.socialIcons a {
-    color: black;
-    display: block;
-    font-size: 2rem;
-    font-weight: 500;
-    padding-bottom: 50px;
-}
-
-.column{
-    margin-top: 50px;
-}
-
-/*#Connect {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}*/
-
-/*.contactColumn{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-around;
-}*/
-
-
-div.phoneColumn h2 {
-    font-size: 15px;
-}
-
-div.emailColumn h2 {
-    font-size: 15px;
-}
-
 .phoneContainer {
     position: relative;
-    margin-right: 25px;
+    margin-left: 55px;
     padding: 10px;
 }
 
 .emailContainer {
     position: relative;
-    margin-left: 150px;
+    margin-right: 8%;
     padding: 10px;
-    left: 25px;
+    left: 100px;
 }
 
 .sectionDark {
@@ -194,19 +160,59 @@ div.emailColumn h2 {
     width: 100%;
 }
 
-.sectionLight {
-    display: flex;
-    justify-content: center;
-    /*background-color: #F1F3Fa;*/
-    height: 75vh;
-    width: 100%;
-}
 
 @media (max-width: 768px){
-    .sectionDark {
-        margin-bottom: 10px;
+    .aboutMe {
+        width: 100%;
+        padding: 50px;
+        margin: 20px; 
     }
-    div.row p{
-        
+    
+    .socialIcons {
+    display: block;
+}
+    .contactContainer {
+        display: block;
     }
+    .phoneContainer {
+        right: 15px;
+    }
+    
+    .emailContainer{
+        left: 20px;
+    }
+    .skills {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2rem 0 0 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 50px;
+}
+}
+
+@media (max-width: 1024px){
+    .aboutMe {
+        width: 100%;
+        padding: 50px;
+        margin: 20px; 
+    }
+    
+    .socialIcons {
+    display: block;
+}
+}
+
+@media (max-width: 1366px){
+    .aboutMe {
+        width: 100%;
+        padding: 50px;
+        margin: 20px; 
+    }
+    
+    .socialIcons {
+    display: block;
+}
 }
